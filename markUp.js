@@ -1,22 +1,42 @@
+//Build read me file via template and user input
+function createMKup(answers) {
 
+  //Define read me filename with file extension  
+  let filename = `${answers.readmetitle}.md`
   
-  #hellthere
+  //Define markup strings for bullet points
+  let contributorMarkup = "";
+  let preReqMarkup = "";
+  let installationMarkup = "";
+  let builtWithMarkup = "";
+
+  //Create bullet point markup for the require data
+  contributorMarkup = buildBulletSection(answers.contributor, ",");
+  preReqMarkup = buildBulletSection(answers.prereq, ",");
+  installationMarkup = buildBulletSection(answers.installation,",");
+  builtWithMarkup = buildBulletSection(answers.builtwith, ",");
+  
+    
+  //Read me file template with auto filled placeholders
+  let readmeFormatted = `
+  
+  #${answers.projtitle}
   <br/>
-  ##readme.md
+  ##${filename}
   <br/>
   <p align="center">
-    <a href="asdpofjemasdlvnkmasd;l">
+    <a href="${answers.githublink}">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - hellthere</h1> 
+    <h1 align="center">Project Title - ${answers.projtitle}</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">dasfsdafgaesdfdas    
+    <p align="center">${answers.description}    
       <br/>
-      <a href="asdpofjemasdlvnkmasd;l<strong>Link to the repo.</strong></a>
+      <a href="${answers.githublink}<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="asdpofjemasdlvnkmasd;l/issues">Bug Report</a>
-      <a href="asdpofjemasdlvnkmasd;l/issues">Feature Request</a>
+      <a href="${answers.githublink}/issues">Bug Report</a>
+      <a href="${answers.githublink}/issues">Feature Request</a>
     </p>
   </p>
   
@@ -46,16 +66,13 @@
   
   ## About The Project.
   
-  dasfsdafgaesdfdas
+  ${answers.description}
   
   
   
   ### Built With.
   
-  * html 
-* css 
-* js 
-
+  ${builtWithMarkup}
   
   
   ## Getting Started.
@@ -64,12 +81,7 @@
   
   ### Prerequisite
   
-  * a 
-* b 
-* c 
-* d 
-* c 
-
+  ${preReqMarkup}
     
   
   ### Installation
@@ -77,16 +89,11 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone asdgaevsdvfbgxchg
+     git clone ${answers.githubclone}
      
   2. Install NPM packages
      
-  * 1 
-* 2 
-* 3 
-* 4 
-* 5 
-
+  ${installationMarkup}
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
      
@@ -95,19 +102,14 @@
   
   See below link for a link on how to use our code.
   
-  fsdjigkafnsdkvlnadlsk
+  ${answers.usage}
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * 1 
-* 2 
-* 3 
-* 4 
-* 5 
-
+  ${contributorMarkup}
   
   In order to contribute. Please follow the below:
   
@@ -121,13 +123,35 @@
   
   Distributed under the folllowing license:
   
-  * PrivatPermissive
+  * ${answers.license}
   
   
   ## Contact / Questions.
   
-  adfsgvdbtydfhg - sdfzxvsfdxzccasdvx - email
+  ${answers.githubname} - ${answers.githubemail} - email
   
-  Project Link: asdpofjemasdlvnkmasd;l)
+  Project Link: ${answers.githublink})
+  
+  `;
+  return readmeFormatted;
+  }
   
   
+// Split strings based upon   
+function buildBulletSection(str,del){
+
+  let arr = "";
+  arr = str.split(del);
+  str = "";
+
+  arr.forEach(data => {
+    str = str.concat(`* ${data} \n`);  
+  });
+
+  return str;
+}
+
+module.exports = {
+  createMKup,
+  buildBulletSection,
+}
