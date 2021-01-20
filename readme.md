@@ -1,27 +1,27 @@
 
 
-#Command Line Interface
+#09 Node.js Homework: Professional README Generator
 <br/>
 ##readme.md
 <br/>
 <p align="center">
-  <a href="www.project.com">username
-    <img src="./pic/readme.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/geckogrpautomation/readMeCLI">geckogrpautomation
+    <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
   </a>
-  <h2 align="center">Command Line Interface</h3> 
-  <h4 align="center">Project Description</h3>
-  <p align="center">daslgknasdkljngasdnvnasdfgnasdgnkl    
+  <h1 align="center">Project Title - 09 Node.js Homework: Professional README Generator</h1> 
+  <h2 align="center">Project Description</h2>
+  <p align="center">When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.     
     <br/>
-    <a href="www.project.com<strong>Link to the repo. »</strong></a>
+    <a href="https://github.com/geckogrpautomation/readMeCLI<strong>Link to the repo. »</strong></a>
     <br/>
     <br/>
-    <a href="www.project.com/issues">Bug Report</a>
-    <a href="www.project.com/issues">Feature Request</a>
+    <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Bug Report</a>
+    <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Feature Request</a>
   </p>
 </p>
 
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -44,29 +44,28 @@
 </details>
 
 
-## About The Project
+## About The Project.
 
-daslgknasdkljngasdnvnasdfgnasdgnkl
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
 
 
-### Built With
+
+### Built With.
 
 * html 
 * css 
 * js 
+* markup 
 
 
 
-## Getting Started
+## Getting Started.
 
-To get a local copy up and running follow these simple steps.
+<h4>To get the code and download the dependancies to succesfully execute your own version see below....</h4>
 
 ### Prerequisite
 
-* npm init 
-*  npm install 
+* inquirer - https://www.npmjs.com/package/inquirer 
 
   
 
@@ -75,56 +74,49 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo.
    Open Git Bash or similar into your required directory.
 
-   git clone www.clone.com
+   git clone https://github.com/geckogrpautomation/readMeCLI.git
    
 2. Install NPM packages
    
-* 1 
-* 2 
-* 3 
-* 4 
-* 5 
+* npm init 
+*  npm install 
 
 
-The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required.
+The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
    
 
-## Usage video
+### Usage video
 
 See below link for a link on how to use our code.
 
-www.video.com
+www.video.com.au
 
 
 ## Contributing
 
 Thanks to all the contributors on this project. You are legends! 
 
-* lc 
-* hc 
-* ac 
-* wc 
+* Lachlan Cameron 
 
 
 In order to contribute. Please follow the below:
 
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
+1. Fork our Project.
+2. Start creating your extra features. (git checkout -b feature/AmazingFeature)
+3. Commit your changes. (git commit -m 'Add some AmazingFeature')
+4. Push to the branch you have checked out. (git push origin feature/AmazingFeature)
+5. Create a pull request and add an admin to verify the code.
 
 ## License
 
 Distributed under the folllowing license:
 
-* GNU/LGPL
+* PDL
 
 
 ## Contact
 
-username - profile - email
+geckogrpautomation - email@email.com - email
 
-Project Link: www.project.com)
+Project Link: https://github.com/geckogrpautomation/readMeCLI)
 

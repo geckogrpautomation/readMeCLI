@@ -81,28 +81,24 @@ contributorArr.forEach(data => {
   str = (`* ${data} \n`);
   contributorMarkup = contributorMarkup.concat(str);  
 });
-console.log(contributorMarkup);
 
 preReqArr.forEach(data => {
   str = "";
   str = (`* ${data} \n`);
   preReqMarkup = preReqMarkup.concat(str);  
 });
-console.log(preReqMarkup);
 
 installationArr.forEach(data => {
   str = "";
   str = (`* ${data} \n`);
   installationMarkup = installationMarkup.concat(str);  
 });
-console.log(installationMarkup);
 
 builtWithArr.forEach(data => {
   str = "";
   str = (`* ${data} \n`);
   builtWithMarkup = builtWithMarkup.concat(str);  
 });
-console.log(builtWithMarkup);
 
 //Read me file template
 let readmeFormatted = `
@@ -113,10 +109,10 @@ let readmeFormatted = `
 <br/>
 <p align="center">
   <a href="${answers.githublink}">${answers.githubname}
-    <img src="./pic/readme.jpg" alt="Logo" width="80" height="80">
+    <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
   </a>
-  <h2 align="center">${answers.projtitle}</h3> 
-  <h4 align="center">Project Description</h3>
+  <h1 align="center">Project Title - ${answers.projtitle}</h1> 
+  <h2 align="center">Project Description</h2>
   <p align="center">${answers.description}    
     <br/>
     <a href="${answers.githublink}<strong>Link to the repo. »</strong></a>
@@ -128,7 +124,7 @@ let readmeFormatted = `
 </p>
 
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -151,21 +147,20 @@ let readmeFormatted = `
 </details>
 
 
-## About The Project
+## About The Project.
 
 ${answers.description}
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 
-### Built With
+### Built With.
 
 ${builtWithMarkup}
 
 
-## Getting Started
+## Getting Started.
 
-To get a local copy up and running follow these simple steps.
+<h4>To get the code and download the dependancies to succesfully execute your own version see below....</h4>
 
 ### Prerequisite
 
@@ -183,10 +178,10 @@ ${preReqMarkup}
    
 ${installationMarkup}
 
-The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required.
+The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
    
 
-## Usage video
+### Usage video
 
 See below link for a link on how to use our code.
 
@@ -201,12 +196,11 @@ ${contributorMarkup}
 
 In order to contribute. Please follow the below:
 
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
+1. Fork our Project.
+2. Start creating your extra features. (git checkout -b feature/AmazingFeature)
+3. Commit your changes. (git commit -m 'Add some AmazingFeature')
+4. Push to the branch you have checked out. (git push origin feature/AmazingFeature)
+5. Create a pull request and add an admin to verify the code.
 
 ## License
 
