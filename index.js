@@ -22,100 +22,46 @@ let gitHubEmail= new obj.InquirerInpNumCnfrmPass("githubemail", "input", "Please
 let gitHubUName= new obj.InquirerInpNumCnfrmPass("githubname", "input", "Please provide your GitHub username?");
 
 
+//Add prompts and raw lists to inquirer
 inquirer
  .prompt([  
-  {
-    name: projectTitle.name,
-    type: projectTitle.type,
-    message: projectTitle.message,
-  },
-  {
-    name: readmeTitle.name,
-    type: readmeTitle.type,
-    message: readmeTitle.message,
-  }, 
-  {
-    name: description.name,
-    type: description.type,
-    message: description.message,
-  }, 
-  {
-    name: usage.name,
-    type: usage.type,
-    message: usage.message,
-  },
-  {
-    name: preReq.name,
-    type: preReq.type,
-    message: preReq.message,
-  },
-  {
-    name: installation.name,
-    type: installation.type,
-    message: installation.message,
-  }, 
-  {
-    name: builtWith.name,
-    type: builtWith.type,
-    message: builtWith.message,
-  }, 
-  {
-    name: license.name,
-    type: license.type,
-    message: license.message,
-    choices: license.choices,
-    default: license.default
-  }, 
-  {
-    name: contributors.name,
-    type: contributors.type,
-    message: contributors.message,
-  }, 
-  {
-    name: gitHubUName.name,
-    type: gitHubUName.type,
-    message: gitHubUName.message,
-  }, 
-  {
-    name: gitHubEmail.name,
-    type: gitHubEmail.type,
-    message: gitHubEmail.message,
-  }, 
-  {
-    name: gitHubLink.name,
-    type: gitHubLink.type,
-    message: gitHubLink.message,
-  },
-  {
-    name: gitHubClone.name,
-    type: gitHubClone.type,
-    message: gitHubClone.message,
-  },
+  projectTitle,
+  readmeTitle,
+  description,
+  contributors,
+  usage,
+  preReq,
+  installation,
+  builtWith,
+  license,
+  gitHubLink,
+  gitHubClone,
+  gitHubEmail,
+  gitHubUName
 ])
 
  .then(answers => {
-   console.log (JSON.stringify(answers));
-  writeToFile(`${answers.readmetitle}.md`, answers)
+ //Call write file function after promise is ok
+  writeToFile(answers);
+  
   })
+  //Catch error and console log it
   .catch(error => {
     console.log (error);
-    //if(error.isTtyError) {
-    //  console.log("Error")
-   // } else {
-    //  console.log( new error + "Other Error ")
-   // }
   });
 
 
 
 // TODO: Create a function to write README 
-function writeToFile(fileName, answers) {
+function writeToFile(answers) {
 
+//Define read me filename with file extension  
+let filename = `${answers.readmetitle}.md`
 //Read me file template
 let readmeFormatted = 
 `
 #${answers.projtitle}
-##${answers.readmetitle}.md
+## `filename`
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -247,7 +193,7 @@ Project Link: ${answers.githublink})
 
 `;
 
-  fs.appendFile(fileName, readmeFormatted, function (err) {
+  fs.appendFile(filename, readmeFormatted, function (err) {
     if (err) {
     throw err;
     }
