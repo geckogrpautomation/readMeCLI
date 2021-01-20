@@ -2,8 +2,10 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const obj = require('./obj');
+const { Console } = require("console");
 // TODO: Create an array of questions for user input
 const licList = ["PDL", "GNU/LGPL" , "PrivatPermissive","Copyleft", "Proprietary"];
+ 
 
 
 //Create objects from constructors which are defined in obj.js
@@ -41,18 +43,18 @@ inquirer
 ])
 
  .then(answers => {
- //Call write file function after promise is ok
-  writeToFile(answers);
-  
+ //Create markup text
+  let markUp = createMKup(answers);
+  //Check if file exist in directory
+  checkFile(`${answers.readmetitle}.md`,markUp);        
   })
   //Catch error and console log it
   .catch(error => {
     console.log (error);
   });
 
-
 //Build read me file via template and user input
-function writeToFile(answers) {
+function createMKup(answers) {
 
 //Define read me filename with file extension  
 let filename = `${answers.readmetitle}.md`
@@ -65,7 +67,6 @@ let preReqArr = answers.prereq.split(",");
 let installationArr = answers.installation.split(",");
 
 let builtWithArr = answers.builtwith.split(",");
-
 
 //Define markup strings
 let contributorMarkup = "";
@@ -104,8 +105,7 @@ builtWithArr.forEach(data => {
 console.log(builtWithMarkup);
 
 //Read me file template
-let readmeFormatted = 
-`
+let readmeFormatted = `
 
 #${answers.projtitle}
 <br/>
@@ -113,7 +113,7 @@ let readmeFormatted =
 <br/>
 <p align="center">
   <a href="${answers.githublink}">${answers.githubname}
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./pic/readme.jpg" alt="Logo" width="80" height="80">
   </a>
   <h2 align="center">${answers.projtitle}</h3> 
   <h4 align="center">Project Description</h3>
@@ -222,14 +222,40 @@ ${answers.githubname} - ${answers.githubemail} - email
 Project Link: ${answers.githublink})
 
 `;
+return readmeFormatted;
+}
 
-  fs.appendFile(filename, readmeFormatted, function (err) {
-    if (err) {
-    throw err;
+
+//Check to see if file exists.
+function checkFile(filename,markUp){
+   
+  try {
+    if(fs.existsSync(filename)) {
+      console.log("The file exists. Manually delete the file.");
+    } else {
+      writeFile(filename,markUp);
+        
     }
-    else{
-      console.log('Saved!');
-    }  
-  });
+} catch (err) {
+    console.error(err);
+}
+
+
+//Write file if it doesnt exist.
+function writeFile(filename,markUp){
+ 
+  fs.writeFile(filename, markUp, (err) => { 
+    if (err){ 
+      console.log(err); 
+    }
+    else { 
+      console.log("<---------- File written successfully ---------->\n"); 
+      console.log("<---------- The contents of the file written was ---------->\n"); 
+      console.log(fs.readFileSync(filename, "utf8")); 
+    }
+    
+})}
+
+//End writeFile function
 }
 
