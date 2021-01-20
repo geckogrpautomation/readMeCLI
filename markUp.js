@@ -145,7 +145,7 @@ function buildBulletSection(str,del){
   str = "";
 
   arr.forEach(data => {
-    str = str.concat(`* ${data} \n`);  
+    str = str.concat(`* ${data} \n `);  
   });
 
   return str;

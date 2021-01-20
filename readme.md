@@ -1,22 +1,22 @@
 
   
-  #hellthere
+  #project
   <br/>
   ##readme.md
   <br/>
   <p align="center">
-    <a href="asdpofjemasdlvnkmasd;l">
+    <a href="jdf;sklfjasd;lkfjsd;">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - hellthere</h1> 
+    <h1 align="center">Project Title - project</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">dasfsdafgaesdfdas    
+    <p align="center">dslkfajasd;lfgknd;lasfkjnasd;lfk    
       <br/>
-      <a href="asdpofjemasdlvnkmasd;l<strong>Link to the repo.</strong></a>
+      <a href="jdf;sklfjasd;lkfjsd;<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="asdpofjemasdlvnkmasd;l/issues">Bug Report</a>
-      <a href="asdpofjemasdlvnkmasd;l/issues">Feature Request</a>
+      <a href="jdf;sklfjasd;lkfjsd;/issues">Bug Report</a>
+      <a href="jdf;sklfjasd;lkfjsd;/issues">Feature Request</a>
     </p>
   </p>
   
@@ -46,16 +46,16 @@
   
   ## About The Project.
   
-  dasfsdafgaesdfdas
+  dslkfajasd;lfgknd;lasfkjnasd;lfk
   
   
   
   ### Built With.
   
   * html 
-* css 
-* js 
-
+ * css 
+ * js 
+ 
   
   
   ## Getting Started.
@@ -64,12 +64,14 @@
   
   ### Prerequisite
   
-  * a 
-* b 
-* c 
-* d 
-* c 
-
+  * 1 
+ * 2 
+ * 3 
+ * 4 
+ * 5 
+ * 6 
+ * 7 
+ 
     
   
   ### Installation
@@ -77,16 +79,16 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone asdgaevsdvfbgxchg
+     git clone fjasd;lasdjkf;asdjlf\\
      
   2. Install NPM packages
      
-  * 1 
-* 2 
-* 3 
-* 4 
-* 5 
-
+  * a 
+ * b 
+ * c 
+ * d 
+ * e 
+ 
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
      
@@ -95,19 +97,18 @@
   
   See below link for a link on how to use our code.
   
-  fsdjigkafnsdkvlnadlsk
+  ds;klfnasdlkjvndalskvn
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * 1 
-* 2 
-* 3 
-* 4 
-* 5 
-
+  * lc 
+ * hc 
+ * ac 
+ * wc 
+ 
   
   In order to contribute. Please follow the below:
   
@@ -126,8 +127,8 @@
   
   ## Contact / Questions.
   
-  adfsgvdbtydfhg - sdfzxvsfdxzccasdvx - email
+  aerlsdkjgnvasdklvjhzxk - asdljkfpoerdgjksdc - email
   
-  Project Link: asdpofjemasdlvnkmasd;l)
+  Project Link: jdf;sklfjasd;lkfjsd;)
   
   
