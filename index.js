@@ -117,7 +117,7 @@ let readmeFormatted =
   </a>
   <h2 align="center">${answers.projtitle}</h3> 
   <h4 align="center">Project Description</h3>
-  <p align="center"${answers.description}>    
+  <p align="center">${answers.description}    
     <br/>
     <a href="${answers.githublink}<strong>Link to the repo. »</strong></a>
     <br/>
