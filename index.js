@@ -41,7 +41,6 @@ inquirer
   gitHubEmail,
   gitHubUName
 ])
-
  .then(answers => {
  //Create markup text
   let markUp = createMKup(answers);
@@ -108,14 +107,14 @@ let readmeFormatted = `
 ##${filename}
 <br/>
 <p align="center">
-  <a href="${answers.githublink}">${answers.githubname}
+  <a href="${answers.githublink}">
     <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
   </a>
   <h1 align="center">Project Title - ${answers.projtitle}</h1> 
   <h2 align="center">Project Description</h2>
   <p align="center">${answers.description}    
     <br/>
-    <a href="${answers.githublink}<strong>Link to the repo. »</strong></a>
+    <a href="${answers.githublink}<strong>Link to the repo.</strong></a>
     <br/>
     <br/>
     <a href="${answers.githublink}/issues">Bug Report</a>
