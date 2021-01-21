@@ -19,9 +19,12 @@ function createMKup(answers) {
   ##${filename}
   <br/>
   
-  <div align= "right"> 
-  [License Badge] 
-  </div>
+  <img src="https://img.shields.io/github/issues/geckogrpautomation/readMeCLI">
+  <img src="https://img.shields.io/github/forks/geckogrpautomation/readMeCLI">
+  <img src="https://img.shields.io/github/stars/geckogrpautomation/readMeCLI">
+  <img src="https://img.shields.io/github/license/geckogrpautomation/readMeCLI">
+
+  
 
   <p align="center">
     <a href="${answers.githublink}">
