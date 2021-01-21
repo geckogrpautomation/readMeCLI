@@ -1,3 +1,4 @@
+
 const fs = require("fs");
 //Check to see if file exists.
 function checkFile(filename,markUp){
@@ -12,8 +13,8 @@ function checkFile(filename,markUp){
   } catch (err) {
       console.error(err);
   }
+
   //End checkFile function
-  
   //Write file if the file doesn't exist.
   function wxFile(filename,markUp){
     try {
@@ -33,8 +34,8 @@ function checkFile(filename,markUp){
     }       
   }
   }
+  
   //End writeFile function
-
   module.exports = {
     checkFile,
   }
