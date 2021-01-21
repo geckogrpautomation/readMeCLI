@@ -163,7 +163,7 @@ module.exports = {
   buildBulletSection,
 }
 
-function buildNPMBulletSection(){
+function buildNPMBulletSection(str,del){
 
   let arr = "";
   arr = str.split(del);
