@@ -1,6 +1,6 @@
 
   
-  #Command Line Readme generator
+  #project1
   <br/>
   ##readme.md
   <br/>
@@ -12,56 +12,54 @@
 
 
   <p align="center">
-    <a href="fdfsdfasdfasdf">
+    <a href="">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - Command Line Readme generator</h1> 
+    <h1 align="center">Project Title - project1</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">command line interface to bjuild read me    
+    <p align="center">dfasdfklasdfmlasdkjnfasdklfn;lasd    
       <br/>
-      <a href="fdfsdfasdfasdf<strong>Link to the repo.</strong></a>
+      <a href="<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="fdfsdfasdfasdf/issues">Bug Report</a>
-      <a href="fdfsdfasdfasdf/issues">Feature Request</a>
+      <a href="/issues">Bug Report</a>
+      <a href="/issues">Feature Request</a>
     </p>
   </p>
   
-  
-    <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
+  <details open="open">
+    <summary><h3>Table of Contents</h3></summary>
     <ol>
-      <li>
-        <a href="#about-the-project">About The Project</a>
-        <ul>
-          <li><a href="#built-with">Built With</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="getting-started">Getting Started</a>
-        <ul>
-          <li><a href="#prerequisite">Prerequisites</a></li>
-          <li><a href="#installation">Installation</a></li>
-          <li><a href="#usage-video">Usage Video</a></li>        
-        </ul>
-      </li>
-      <li><a href="#contributing">Contributing</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact/Questions</a></li>
-    </ol>
-  
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisite">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage-video">Usage Video</a></li>        
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact/Questions</a></li>
+  </ol>
+</details>
   
   
   ## About The Project.
   
-  command line interface to bjuild read me
+  dfasdfklasdfmlasdkjnfasdklfn;lasd
   
   
   
   ### Built With.
   
-  * html 
- * css 
- * js 
+  *  
  
   
   
@@ -71,11 +69,7 @@
   
   ### Prerequisite
   
-  * 1 
- * 2 
- * 3 
- * 4 
- * 5 
+  *  
  
     
   
@@ -84,15 +78,11 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone dsfasdfasdf
+     git clone 
      
   2. Install NPM packages
      
-  * a 
- * b 
- * c 
- * d 
- * e 
+  *  
  
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -102,17 +92,14 @@
   
   See below link for a link on how to use our code.
   
-  video.com
+  
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * lc 
- * hc 
- * ac 
- * wc 
+  *  
  
   
   In order to contribute. Please follow the below:
@@ -132,9 +119,9 @@
   
   ## Contact / Questions.
   
-  Github - adsfasdfasdf --- Email -  sdafasdfasdfasd
+  Github -  --- Email -  
   
-  Project Link: -  fdfsdfasdfasdf)
+  Project Link: -  )
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI

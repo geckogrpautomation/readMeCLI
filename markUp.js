@@ -41,28 +41,28 @@ function createMKup(answers) {
     </p>
   </p>
   
-  
-    <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
+  <details open="open">
+    <summary><h3>Table of Contents</h3></summary>
     <ol>
-      <li>
-        <a href="#about-the-project">About The Project</a>
-        <ul>
-          <li><a href="#built-with">Built With</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="getting-started">Getting Started</a>
-        <ul>
-          <li><a href="#prerequisite">Prerequisites</a></li>
-          <li><a href="#installation">Installation</a></li>
-          <li><a href="#usage-video">Usage Video</a></li>        
-        </ul>
-      </li>
-      <li><a href="#contributing">Contributing</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact/Questions</a></li>
-    </ol>
-  
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisite">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage-video">Usage Video</a></li>        
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact/Questions</a></li>
+  </ol>
+</details>
   
   
   ## About The Project.
