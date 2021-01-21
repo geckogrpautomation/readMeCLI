@@ -4,17 +4,11 @@ function createMKup(answers) {
   //Define read me filename with file extension  
   let filename = `${answers.readmetitle}.md`
   
-  //Define markup strings for bullet points
-  let contributorMarkup = "";
-  let preReqMarkup = "";
-  let installationMarkup = "";
-  let builtWithMarkup = "";
-
   //Create bullet point markup for the require data
-  contributorMarkup = buildBulletSection(answers.contributor, ",");
-  preReqMarkup = buildBulletSection(answers.prereq, ",");
-  installationMarkup = buildBulletSection(answers.installation,",");
-  builtWithMarkup = buildBulletSection(answers.builtwith, ",");
+  let contributorMarkup = buildBulletSection(answers.contributor, ",");
+  let preReqMarkup = buildBulletSection(answers.prereq, ",");
+  let installationMarkup = buildBulletSection(answers.installation,",");
+  let builtWithMarkup = buildBulletSection(answers.builtwith, ",");
   
     
   //Read me file template with auto filled placeholders
@@ -24,6 +18,11 @@ function createMKup(answers) {
   <br/>
   ##${filename}
   <br/>
+  
+  <div align= "right"> 
+  [License Badge] 
+  </div>
+
   <p align="center">
     <a href="${answers.githublink}">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
@@ -40,7 +39,7 @@ function createMKup(answers) {
     </p>
   </p>
   
-  <details open="open">
+  
     <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
     <ol>
       <li>
@@ -54,14 +53,14 @@ function createMKup(answers) {
         <ul>
           <li><a href="#prerequisite">Prerequisites</a></li>
           <li><a href="#installation">Installation</a></li>
-          <li><a href="#usage-video">Installation</a></li>        
+          <li><a href="#usage-video">Usage Video</a></li>        
         </ul>
       </li>
       <li><a href="#contributing">Contributing</a></li>
       <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Contact/Questions</a></li>
     </ol>
-  </details>
+  
   
   
   ## About The Project.
@@ -128,10 +127,13 @@ function createMKup(answers) {
   
   ## Contact / Questions.
   
-  ${answers.githubname} - ${answers.githubemail} - email
+  Github - ${answers.githubname} --- Email -  ${answers.githubemail}
   
-  Project Link: ${answers.githublink})
+  Project Link: -  ${answers.githublink})
+
+  [License Badge Inquirer] : !https://img.shields.io/badge/License-${answers.license}-green)
   
+
   `;
   return readmeFormatted;
   }

@@ -1,26 +1,31 @@
 
   
-  #project
+  #proj
   <br/>
   ##readme.md
   <br/>
+  
+  <div align= "right"> 
+  [License Badge] 
+  </div>
+
   <p align="center">
-    <a href="jdf;sklfjasd;lkfjsd;">
+    <a href="dfsdfasdfasfsdfas">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - project</h1> 
+    <h1 align="center">Project Title - proj</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">dslkfajasd;lfgknd;lasfkjnasd;lfk    
+    <p align="center">sdafasdfsdfasdfasdfsdfasdf    
       <br/>
-      <a href="jdf;sklfjasd;lkfjsd;<strong>Link to the repo.</strong></a>
+      <a href="dfsdfasdfasfsdfas<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="jdf;sklfjasd;lkfjsd;/issues">Bug Report</a>
-      <a href="jdf;sklfjasd;lkfjsd;/issues">Feature Request</a>
+      <a href="dfsdfasdfasfsdfas/issues">Bug Report</a>
+      <a href="dfsdfasdfasfsdfas/issues">Feature Request</a>
     </p>
   </p>
   
-  <details open="open">
+  
     <summary><h3 style="display: inline-block">Table of Contents</h3></summary>
     <ol>
       <li>
@@ -34,19 +39,19 @@
         <ul>
           <li><a href="#prerequisite">Prerequisites</a></li>
           <li><a href="#installation">Installation</a></li>
-          <li><a href="#usage-video">Installation</a></li>        
+          <li><a href="#usage-video">Usage Video</a></li>        
         </ul>
       </li>
       <li><a href="#contributing">Contributing</a></li>
       <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Contact/Questions</a></li>
     </ol>
-  </details>
+  
   
   
   ## About The Project.
   
-  dslkfajasd;lfgknd;lasfkjnasd;lfk
+  sdafasdfsdfasdfasdfsdfasdf
   
   
   
@@ -64,13 +69,15 @@
   
   ### Prerequisite
   
-  * 1 
- * 2 
- * 3 
- * 4 
- * 5 
- * 6 
- * 7 
+  * a 
+ * b 
+ * c 
+ * d 
+ * e 
+ * f 
+ * d 
+ * f 
+ * h 
  
     
   
@@ -79,15 +86,18 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone fjasd;lasdjkf;asdjlf\\
+     git clone asdfasdfasdfasdf
      
   2. Install NPM packages
      
-  * a 
- * b 
- * c 
- * d 
- * e 
+  * 6 
+ * 7 
+ * 8 
+ * 0 
+ * 6 
+ * 4 
+ * 3 
+ * 2 
  
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -97,17 +107,22 @@
   
   See below link for a link on how to use our code.
   
-  ds;klfnasdlkjvndalskvn
+  dfasdfasdfasdfasdfsdf
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * lc 
- * hc 
- * ac 
- * wc 
+  * 1 
+ * 2 
+ * 3 
+ * 4 
+ * 5 
+ * 6 
+ * 7 
+ * 8 
+ * 9 
  
   
   In order to contribute. Please follow the below:
@@ -122,13 +137,16 @@
   
   Distributed under the folllowing license:
   
-  * PrivatPermissive
+  * GNU/LGPL
   
   
   ## Contact / Questions.
   
-  aerlsdkjgnvasdklvjhzxk - asdljkfpoerdgjksdc - email
+  Github - asdfasdfasdfasdfasdfa --- Email -  asdfsdafasdfaswa
   
-  Project Link: jdf;sklfjasd;lkfjsd;)
+  Project Link: -  dfsdfasdfasfsdfas)
+
+  [License Badge Inquirer] : !https://img.shields.io/badge/License-GNU/LGPL-green)
   
+
   
