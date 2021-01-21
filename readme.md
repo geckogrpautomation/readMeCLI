@@ -1,6 +1,6 @@
 
   
-  #CLI Interface
+  #Week 09 Readme generator
   <br/>
   ##readme.md
   <br/>
@@ -12,18 +12,18 @@
 
 
   <p align="center">
-    <a href="">
+    <a href="https://github.com/geckogrpautomation/readMeCLI">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - CLI Interface</h1> 
+    <h1 align="center">Project Title - Week 09 Readme generator</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">    
+    <p align="center">When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.    
       <br/>
-      <a href="<strong>Link to the repo.</strong></a>
+      <a href="https://github.com/geckogrpautomation/readMeCLI<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="/issues">Bug Report</a>
-      <a href="/issues">Feature Request</a>
+      <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Bug Report</a>
+      <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Feature Request</a>
     </p>
   </p>
   
@@ -53,13 +53,16 @@
   
   ## About The Project.
   
-  
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.
   
   
   
   ### Built With.
   
-  *  
+  * HTML 
+ * CSS 
+ * Javascript 
+ *  User JS libraries 
  
   
   
@@ -69,7 +72,7 @@
   
   ### Prerequisite
   
-  *  
+  * inquirer 
  
     
   
@@ -78,12 +81,12 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone 
+     git clone https://github.com/geckogrpautomation/readMeCLI.git
      
   2. Install NPM packages
      
   ```sh 
- *   
+ * npm install  
 ```
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -93,14 +96,14 @@
   
   See below link for a link on how to use our code.
   
-  
+  www.video.com
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  *  
+  * Lachlan Cameron 
  
   
   In order to contribute. Please follow the below:
@@ -120,9 +123,9 @@
   
   ## Contact / Questions.
   
-  Github -  --- Email -  
+  Github - geckogrpautomation --- Email -  n/a
   
-  Project Link: -  )
+  Project Link: -  https://github.com/geckogrpautomation/readMeCLI)
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
