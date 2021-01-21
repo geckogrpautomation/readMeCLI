@@ -146,7 +146,7 @@
   
   Project Link: -  dfsdfasdfasfsdfas)
 
-  [License Badge Inquirer] : !https://img.shields.io/badge/License-GNU/LGPL-green)
+  [License Badge Inquirer] : https://img.shields.io/badge/License-GNU/LGPL-green)
   
 
   
