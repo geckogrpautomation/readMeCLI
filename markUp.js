@@ -19,10 +19,10 @@ function createMKup(answers) {
   ##${filename}
   <br/>
   
-  [![Issues][contributors-shield]]
-  [![Forks][contributors-shield]]
-  [![Stars][contributors-shield]]
-  [![License][contributors-shield]]
+  [![Issues]]
+  [![Forks]]
+  [![Stars]]
+  [![License]]
 
     
 
