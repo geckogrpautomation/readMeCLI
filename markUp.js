@@ -131,7 +131,7 @@ function createMKup(answers) {
   
   Github - ${answers.githubname} --- Email -  ${answers.githubemail}
   
-  Project Link: -  ${answers.githublink})
+  Project Link: -  ${answers.githublink}
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
