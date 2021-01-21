@@ -19,12 +19,10 @@ function createMKup(answers) {
   ##${filename}
   <br/>
   
-  [![Issues]]
-  [![Forks]]
-  [![Stars]]
-  [![License]]
-
-    
+  ![Issues]
+  ![Forks]
+  ![Stars]
+  ![License]   
 
   <p align="center">
     <a href="${answers.githublink}">
@@ -125,7 +123,7 @@ function createMKup(answers) {
   
   Distributed under the folllowing license:
   
-  * ${answers.license}
+  * ${}
   
   
   ## Contact / Questions.

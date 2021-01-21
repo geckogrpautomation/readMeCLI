@@ -16,7 +16,6 @@ let usage = new objJS.InquirerInpNumCnfrmPass("usage", "input", "Please add a li
 let preReq = new objJS.InquirerInpNumCnfrmPass("prereq", "input", "What are the required prerequisites or project dependancies and if more than one separate via a comma.?");
 let installation = new objJS.InquirerInpNumCnfrmPass("installation", "input", "Please define the NPM installation steps separated by a comma Eg 1 - npm init, 2 - npm install inquirer?");
 let builtWith = new objJS.InquirerInpNumCnfrmPass("builtwith", "input", "Please define the technologies used in this project separated by a comma Eg 1 - HTML, 2 - JS?");
-let license = new objJS.InquirerListChkBx("license", "list", "Select correct license type of this project.",licList, "Proprietary" );
 let gitHubLink = new objJS.InquirerInpNumCnfrmPass("githublink", "input", "Please provide the link to your project's GitHub repository?");
 let gitHubClone = new objJS.InquirerInpNumCnfrmPass("githubclone", "input", "Please provide the link to initiate a clone of your project's repository?");
 let gitHubEmail= new objJS.InquirerInpNumCnfrmPass("githubemail", "input", "Please provide your public GitHub profile email contact?");
@@ -33,7 +32,6 @@ inquirer
   preReq,
   installation,
   builtWith,
-  license,
   gitHubLink,
   gitHubClone,
   gitHubEmail,
