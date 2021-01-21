@@ -1,30 +1,30 @@
 
   
-  #project
+  #CLI
   <br/>
   ##readme.md
   <br/>
   
-  [![Issues][contributors-shield]]
-  [![Forks][contributors-shield]]
-  [![Stars][contributors-shield]]
-  [![License][contributors-shield]]
+  [![Issues]]
+  [![Forks]]
+  [![Stars]]
+  [![License]]
 
     
 
   <p align="center">
-    <a href="fasd">
+    <a href="">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - project</h1> 
+    <h1 align="center">Project Title - CLI</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">dfasdfasdfasdfasd    
+    <p align="center">    
       <br/>
-      <a href="fasd<strong>Link to the repo.</strong></a>
+      <a href="<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="fasd/issues">Bug Report</a>
-      <a href="fasd/issues">Feature Request</a>
+      <a href="/issues">Bug Report</a>
+      <a href="/issues">Feature Request</a>
     </p>
   </p>
   
@@ -54,13 +54,13 @@
   
   ## About The Project.
   
-  dfasdfasdfasdfasd
+  
   
   
   
   ### Built With.
   
-  * asdf 
+  *  
  
   
   
@@ -70,7 +70,7 @@
   
   ### Prerequisite
   
-  * asd 
+  *  
  
     
   
@@ -83,7 +83,7 @@
      
   2. Install NPM packages
      
-  * f 
+  *  
  
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -93,14 +93,14 @@
   
   See below link for a link on how to use our code.
   
-  asdf
+  
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * asdfasd 
+  *  
  
   
   In order to contribute. Please follow the below:
@@ -122,7 +122,7 @@
   
   Github -  --- Email -  
   
-  Project Link: -  fasd)
+  Project Link: -  )
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
