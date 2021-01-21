@@ -5,10 +5,8 @@
   ##readme.md
   <br/>
   
-  <div align= "right"> 
-  [License Badge] 
-  </div>
-
+  <img src = " https://img.shields.io/badge/License-GNU/LGPL-green" align= "right"> 
+ 
   <p align="center">
     <a href="dfsdfasdfasfsdfas">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
