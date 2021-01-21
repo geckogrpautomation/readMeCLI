@@ -98,7 +98,7 @@
   
   See below link for a link on how to use our code.
   
-  www.video.com
+  https://drive.google.com/file/d/1a1vzR832Q0UC6sBqhhzfyl_FnzupMr_1/view
   
   
   ## Contributing
@@ -125,7 +125,7 @@
   
   ## Contact / Questions.
   
-  Github - geckogrpautomation --- Email -  email@email.com
+  Github - geckogrpautomation --- Email -  lachlan.cameron@geckogrp.com.au
   
   Project Link: -  github.com
 
