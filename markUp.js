@@ -19,12 +19,12 @@ function createMKup(answers) {
   ##${filename}
   <br/>
   
-  <img src="https://img.shields.io/github/issues/geckogrpautomation/readMeCLI">
-  <img src="https://img.shields.io/github/forks/geckogrpautomation/readMeCLI">
-  <img src="https://img.shields.io/github/stars/geckogrpautomation/readMeCLI">
-  <img src="https://img.shields.io/github/license/geckogrpautomation/readMeCLI">
+  [![Issues][contributors-shield]]
+  [![Forks][contributors-shield]]
+  [![Stars][contributors-shield]]
+  [![License][contributors-shield]]
 
-  
+    
 
   <p align="center">
     <a href="${answers.githublink}">
@@ -134,11 +134,14 @@ function createMKup(answers) {
   
   Project Link: -  ${answers.githublink})
 
-  [License Badge Inquirer] : !https://img.shields.io/badge/License-${answers.license}-green)
-  
+ 
+  [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
+  [Forks]: https://img.shields.io/github/forks/geckogrpautomation/readMeCLI
+  [Stars]: https://img.shields.io/github/stars/geckogrpautomation/readMeCLI
+  [License]: https://img.shields.io/github/license/geckogrpautomation/readMeCLI
 
   `;
-  return readmeFormatted;
+    return readmeFormatted;
   }
   
   

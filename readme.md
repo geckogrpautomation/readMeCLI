@@ -1,25 +1,30 @@
 
   
-  #proj
+  #project
   <br/>
   ##readme.md
   <br/>
   
-  <img src = " https://img.shields.io/badge/License-GNU/LGPL-green" align= "right"> 
- 
+  [![Issues][contributors-shield]]
+  [![Forks][contributors-shield]]
+  [![Stars][contributors-shield]]
+  [![License][contributors-shield]]
+
+    
+
   <p align="center">
-    <a href="dfsdfasdfasfsdfas">
+    <a href="fasd">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - proj</h1> 
+    <h1 align="center">Project Title - project</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">sdafasdfsdfasdfasdfsdfasdf    
+    <p align="center">dfasdfasdfasdfasd    
       <br/>
-      <a href="dfsdfasdfasfsdfas<strong>Link to the repo.</strong></a>
+      <a href="fasd<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="dfsdfasdfasfsdfas/issues">Bug Report</a>
-      <a href="dfsdfasdfasfsdfas/issues">Feature Request</a>
+      <a href="fasd/issues">Bug Report</a>
+      <a href="fasd/issues">Feature Request</a>
     </p>
   </p>
   
@@ -49,15 +54,13 @@
   
   ## About The Project.
   
-  sdafasdfsdfasdfasdfsdfasdf
+  dfasdfasdfasdfasd
   
   
   
   ### Built With.
   
-  * html 
- * css 
- * js 
+  * asdf 
  
   
   
@@ -67,15 +70,7 @@
   
   ### Prerequisite
   
-  * a 
- * b 
- * c 
- * d 
- * e 
- * f 
- * d 
- * f 
- * h 
+  * asd 
  
     
   
@@ -84,18 +79,11 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone asdfasdfasdfasdf
+     git clone 
      
   2. Install NPM packages
      
-  * 6 
- * 7 
- * 8 
- * 0 
- * 6 
- * 4 
- * 3 
- * 2 
+  * f 
  
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -105,22 +93,14 @@
   
   See below link for a link on how to use our code.
   
-  dfasdfasdfasdfasdfsdf
+  asdf
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * 1 
- * 2 
- * 3 
- * 4 
- * 5 
- * 6 
- * 7 
- * 8 
- * 9 
+  * asdfasd 
  
   
   In order to contribute. Please follow the below:
@@ -135,16 +115,19 @@
   
   Distributed under the folllowing license:
   
-  * GNU/LGPL
+  * Proprietary
   
   
   ## Contact / Questions.
   
-  Github - asdfasdfasdfasdfasdfa --- Email -  asdfsdafasdfaswa
+  Github -  --- Email -  
   
-  Project Link: -  dfsdfasdfasfsdfas)
+  Project Link: -  fasd)
 
-  [License Badge Inquirer] : https://img.shields.io/badge/License-GNU/LGPL-green)
-  
+ 
+  [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
+  [Forks]: https://img.shields.io/github/forks/geckogrpautomation/readMeCLI
+  [Stars]: https://img.shields.io/github/stars/geckogrpautomation/readMeCLI
+  [License]: https://img.shields.io/github/license/geckogrpautomation/readMeCLI
 
   
