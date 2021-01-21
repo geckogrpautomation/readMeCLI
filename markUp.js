@@ -7,7 +7,7 @@ function createMKup(answers) {
   //Create bullet point markup for the require data
   let contributorMarkup = buildBulletSection(answers.contributor, ",");
   let preReqMarkup = buildBulletSection(answers.prereq, ",");
-  let installationMarkup = buildBulletSection(answers.installation,",");
+  let installationMarkup = buildNPMBulletSection(answers.installation,",");
   let builtWithMarkup = buildBulletSection(answers.builtwith, ",");
   
     
@@ -161,4 +161,18 @@ function buildBulletSection(str,del){
 module.exports = {
   createMKup,
   buildBulletSection,
+}
+
+function buildNPMBulletSection(){
+
+  let arr = "";
+  arr = str.split(del);
+  str = "";
+
+  arr.forEach(data => {
+    str = str.concat("```sh \n * " + `${data}  \n` + "```" );  
+  });
+
+  return str;
+ 
 }
