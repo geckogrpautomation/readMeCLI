@@ -1,30 +1,29 @@
 
   
-  #CLI
+  #Command Line Readme generator
   <br/>
   ##readme.md
   <br/>
   
-  [![Issues]]
-  [![Forks]]
-  [![Stars]]
-  [![License]]
+  ![Issues]
+  ![Forks]
+  ![Stars]
+  ![License]   
 
-    
 
   <p align="center">
-    <a href="">
+    <a href="fdfsdfasdfasdf">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - CLI</h1> 
+    <h1 align="center">Project Title - Command Line Readme generator</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">    
+    <p align="center">command line interface to bjuild read me    
       <br/>
-      <a href="<strong>Link to the repo.</strong></a>
+      <a href="fdfsdfasdfasdf<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="/issues">Bug Report</a>
-      <a href="/issues">Feature Request</a>
+      <a href="fdfsdfasdfasdf/issues">Bug Report</a>
+      <a href="fdfsdfasdfasdf/issues">Feature Request</a>
     </p>
   </p>
   
@@ -54,13 +53,15 @@
   
   ## About The Project.
   
-  
+  command line interface to bjuild read me
   
   
   
   ### Built With.
   
-  *  
+  * html 
+ * css 
+ * js 
  
   
   
@@ -70,7 +71,11 @@
   
   ### Prerequisite
   
-  *  
+  * 1 
+ * 2 
+ * 3 
+ * 4 
+ * 5 
  
     
   
@@ -79,11 +84,15 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone 
+     git clone dsfasdfasdf
      
   2. Install NPM packages
      
-  *  
+  * a 
+ * b 
+ * c 
+ * d 
+ * e 
  
   
   The repo should have a package.JSON and a package-lock.JSON file which lists all the dependancies. Hence only npm install is required. 
@@ -93,14 +102,17 @@
   
   See below link for a link on how to use our code.
   
-  
+  video.com
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  *  
+  * lc 
+ * hc 
+ * ac 
+ * wc 
  
   
   In order to contribute. Please follow the below:
@@ -113,16 +125,16 @@
   
   ## License
   
-  Distributed under the folllowing license:
+  Distributed under the following license:
   
-  * Proprietary
+  ![License] 
   
   
   ## Contact / Questions.
   
-  Github -  --- Email -  
+  Github - adsfasdfasdf --- Email -  sdafasdfasdfasd
   
-  Project Link: -  )
+  Project Link: -  fdfsdfasdfasdf)
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI

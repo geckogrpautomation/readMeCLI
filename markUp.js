@@ -24,6 +24,7 @@ function createMKup(answers) {
   ![Stars]
   ![License]   
 
+
   <p align="center">
     <a href="${answers.githublink}">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
@@ -121,9 +122,9 @@ function createMKup(answers) {
   
   ## License
   
-  Distributed under the folllowing license:
+  Distributed under the following license:
   
-  * ${}
+  ![License] 
   
   
   ## Contact / Questions.
