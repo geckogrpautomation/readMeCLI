@@ -1,6 +1,6 @@
 
   
-  #Week09 CLI Readme Generator
+  #CLI Readme Generator
   <br/>
   ##readme.md
   <br/>
@@ -12,18 +12,18 @@
 
 
   <p align="center">
-    <a href="https://github.com/geckogrpautomation/readMeCLI">
+    <a href="github.com">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - Week09 CLI Readme Generator</h1> 
+    <h1 align="center">Project Title - CLI Readme Generator</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions; this last part increases the likelihood that other developers will contribute to the success of the project.    
+    <p align="center">A commanmd line interface tool that allows the user to create a professional readme in a short time.    
       <br/>
-      <a href="https://github.com/geckogrpautomation/readMeCLI"<strong>Link to the repo.</strong></a>
+      <a href="github.com"<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
-      <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Bug Report</a>
-      <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Feature Request</a>
+      <a href="github.com/issues">Bug Report</a>
+      <a href="github.com/issues">Feature Request</a>
     </p>
   </p>
   
@@ -53,7 +53,7 @@
   
   ## About The Project.
   
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions; this last part increases the likelihood that other developers will contribute to the success of the project.
+  A commanmd line interface tool that allows the user to create a professional readme in a short time.
   
   
   
@@ -62,6 +62,9 @@
   * HTML 
  * CSS 
  * JS 
+ * Markup 
+ * Shields.IO 
+ * Inquirer 
  
   
   
@@ -80,7 +83,7 @@
   1. Clone the repo.
      Open Git Bash or similar into your required directory.
   
-     git clone https://github.com/geckogrpautomation/readMeCLI.git
+     git clone githubclone.com
      
   2. Install NPM packages
      
@@ -95,14 +98,14 @@
   
   See below link for a link on how to use our code.
   
-  n/a
+  www.video.com
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * You can quickly and easily create a README file by using a command-line application to generate one.Lachlan Cameronm 
+  * Lachlan Cameron 
  
   
   In order to contribute. Please follow the below:
@@ -122,9 +125,9 @@
   
   ## Contact / Questions.
   
-  Github - geckogrpautomation --- Email -  n/a
+  Github - geckogrpautomation --- Email -  email@email.com
   
-  Project Link: -  https://github.com/geckogrpautomation/readMeCLI)
+  Project Link: -  github.com
 
  
   [Issues]: https://img.shields.io/github/issues/geckogrpautomation/readMeCLI
