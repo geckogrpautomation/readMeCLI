@@ -1,6 +1,6 @@
 
   
-  #Week 09 Readme generator
+  #Week09 CLI Readme Generator
   <br/>
   ##readme.md
   <br/>
@@ -15,11 +15,11 @@
     <a href="https://github.com/geckogrpautomation/readMeCLI">
       <img src="./pic/readme.jpg" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - Week 09 Readme generator</h1> 
+    <h1 align="center">Project Title - Week09 CLI Readme Generator</h1> 
     <h2 align="center">Project Description</h2>
-    <p align="center">When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.    
+    <p align="center">When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions; this last part increases the likelihood that other developers will contribute to the success of the project.    
       <br/>
-      <a href="https://github.com/geckogrpautomation/readMeCLI<strong>Link to the repo.</strong></a>
+      <a href="https://github.com/geckogrpautomation/readMeCLI"<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
       <a href="https://github.com/geckogrpautomation/readMeCLI/issues">Bug Report</a>
@@ -53,7 +53,7 @@
   
   ## About The Project.
   
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions; this last part increases the likelihood that other developers will contribute to the success of the project.
   
   
   
@@ -61,8 +61,7 @@
   
   * HTML 
  * CSS 
- * Javascript 
- *  User JS libraries 
+ * JS 
  
   
   
@@ -96,14 +95,14 @@
   
   See below link for a link on how to use our code.
   
-  www.video.com
+  n/a
   
   
   ## Contributing
   
   Thanks to all the contributors on this project. You are legends! 
   
-  * Lachlan Cameron 
+  * You can quickly and easily create a README file by using a command-line application to generate one.Lachlan Cameronm 
  
   
   In order to contribute. Please follow the below:

@@ -33,7 +33,7 @@ function createMKup(answers) {
     <h2 align="center">Project Description</h2>
     <p align="center">${answers.description}    
       <br/>
-      <a href="${answers.githublink}<strong>Link to the repo.</strong></a>
+      <a href="${answers.githublink}"<strong>Link to the repo.</strong></a>
       <br/>
       <br/>
       <a href="${answers.githublink}/issues">Bug Report</a>
